@@ -15,7 +15,7 @@ venv/
 env/
 .env
 
-# Pytest
+# Pytest / coverage
 .pytest_cache/
 htmlcov/
 .coverage
@@ -26,10 +26,7 @@ htmlcov/
 *.swp
 *.swo
 
-# Project outputs (generated at runtime)
-data/processed/
-outputs/figures/
-outputs/reports/
+# Generated model (large binary — not needed for review)
 outputs/model.pkl
 
 # Jupyter
@@ -39,3 +36,7 @@ outputs/model.pkl
 # OS
 .DS_Store
 Thumbs.db
+
+# NOTE: data/raw/, data/processed/, outputs/figures/, outputs/reports/
+# are intentionally INCLUDED in version control so reviewers can see
+# the results without running the pipeline.
