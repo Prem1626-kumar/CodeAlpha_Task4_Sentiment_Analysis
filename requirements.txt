@@ -1,10 +1,20 @@
-pandas==2.1.4
-numpy==1.26.4
-scikit-learn==1.4.2
-nltk==3.8.1
-vaderSentiment==3.3.2
-matplotlib==3.8.4
-seaborn==0.13.2
-streamlit==1.35.0
-pytest==8.2.2
-joblib==1.4.2
+# CodeAlpha Task 4 — Sentiment Analysis
+# Python 3.10+ required (developed and tested on Python 3.13 / Windows)
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Note: exact versions are listed here for reproducibility.
+# If installation fails due to build requirements, install without pins:
+#   pip install pandas numpy scikit-learn nltk vaderSentiment matplotlib seaborn streamlit pytest joblib
+
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+nltk>=3.8.0
+vaderSentiment>=3.3.2
+matplotlib>=3.7.0
+seaborn>=0.12.0
+streamlit>=1.28.0
+pytest>=7.4.0
+joblib>=1.3.0
